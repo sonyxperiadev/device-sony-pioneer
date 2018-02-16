@@ -59,7 +59,7 @@
         <resource name="charge_speed" type="sysfs">/sys/class/power_supply/battery/system_temp_level</resource>
 
         <!-- shutdown -->
-        <resource name="shutdown" type="echo" delay="5" />
+        <resource name="shutdown" type="halt" delay="5" />
 
         <!-- display backlight -->
         <resource name="disp-bl" type="sysfs">/sys/class/leds/lcd-backlight/max_brightness</resource>
