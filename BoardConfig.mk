@@ -19,10 +19,6 @@ TARGET_BOOTLOADER_BOARD_NAME := H3113
 # Platform
 PRODUCT_PLATFORM := nile
 
-# NFC
-NXP_CHIP_TYPE := PN553
-NXP_CHIP_FW_TYPE := PN553
-
 BOARD_KERNEL_CMDLINE += androidboot.hardware=pioneer
 
 # Partition information
