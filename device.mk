@@ -65,8 +65,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.pioneer \
     init.recovery.pioneer \
-    init.pioneer \
-    ueventd.pioneer
+    init.pioneer
 
 # Lights
 PRODUCT_PACKAGES += \
