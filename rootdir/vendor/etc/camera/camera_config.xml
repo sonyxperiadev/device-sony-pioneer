@@ -5,7 +5,6 @@
     <ActuatorName>bu64747gwz</ActuatorName>
     <FlashName>pmic</FlashName>
     <ChromatixName>imx300_chromatix</ChromatixName>
-    <EepromName>sony_imx300</EepromName>
     <ModesSupported>1</ModesSupported>
     <Position>BACK</Position>
     <MountAngle>90</MountAngle>
@@ -30,7 +29,6 @@
     <SensorName>imx219</SensorName>
     <FlashName>pmic</FlashName>
     <ChromatixName>imx219_chromatix</ChromatixName>
-    <EepromName>sony_imx219</EepromName>
     <ModesSupported>1</ModesSupported>
     <Position>FRONT</Position>
     <MountAngle>270</MountAngle>
