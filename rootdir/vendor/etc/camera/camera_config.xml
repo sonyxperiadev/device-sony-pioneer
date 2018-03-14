@@ -2,7 +2,7 @@
   <CameraModuleConfig>
     <CameraId>0</CameraId>
     <SensorName>imx300</SensorName>
-    <ActuatorName>bu64747gwz</ActuatorName>
+    <ActuatorName>bu64747BS4</ActuatorName>
     <FlashName>pmic</FlashName>
     <ChromatixName>imx300_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
