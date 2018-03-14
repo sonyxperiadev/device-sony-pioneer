@@ -8,7 +8,6 @@
     <ModesSupported>1</ModesSupported>
     <Position>BACK</Position>
     <MountAngle>90</MountAngle>
-    <SensorSlaveAddress>0x20</SensorSlaveAddress>
     <CSIInfo>
       <CSIDCore>0</CSIDCore>
       <LaneMask>0x1F</LaneMask>
