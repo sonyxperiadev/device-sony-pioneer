@@ -84,27 +84,27 @@
     <!-- cluster 0 clocks -->
     <control name="cluster-0-clk">
         <mitigation level="off"><value resource="cluster-0-max-clk">0:4294967295</value></mitigation>
-        <mitigation level="1"><value resource="cluster-0-max-clk">0:1900800</value></mitigation>
-        <mitigation level="2"><value resource="cluster-0-max-clk">0:1824000</value></mitigation>
-        <mitigation level="3"><value resource="cluster-0-max-clk">0:1824000</value></mitigation>
+        <mitigation level="1"><value resource="cluster-0-max-clk">0:2150400</value></mitigation>
+        <mitigation level="2"><value resource="cluster-0-max-clk">0:2016000</value></mitigation>
+        <mitigation level="3"><value resource="cluster-0-max-clk">0:1881600</value></mitigation>
         <mitigation level="4"><value resource="cluster-0-max-clk">0:1670400</value></mitigation>
-        <mitigation level="5"><value resource="cluster-0-max-clk">0:1478400</value></mitigation>
-        <mitigation level="6"><value resource="cluster-0-max-clk">0:1171200</value></mitigation>
-        <mitigation level="7"><value resource="cluster-0-max-clk">0:672000</value></mitigation>
-        <mitigation level="8"><value resource="cluster-0-max-clk">0:300000</value></mitigation>
+        <mitigation level="5"><value resource="cluster-0-max-clk">0:1516800</value></mitigation>
+        <mitigation level="6"><value resource="cluster-0-max-clk">0:1344000</value></mitigation>
+        <mitigation level="7"><value resource="cluster-0-max-clk">0:1113600</value></mitigation>
+        <mitigation level="8"><value resource="cluster-0-max-clk">0:787200</value></mitigation>
     </control>
 
     <!-- cluster 1 clocks -->
     <control name="cluster-1-clk">
         <mitigation level="off"><value resource="cluster-1-max-clk">4:4294967295</value></mitigation>
-        <mitigation level="1"><value resource="cluster-1-max-clk">4:2342400</value></mitigation>
-        <mitigation level="2"><value resource="cluster-1-max-clk">4:2208000</value></mitigation>
-        <mitigation level="3"><value resource="cluster-1-max-clk">4:1804800</value></mitigation>
-        <mitigation level="4"><value resource="cluster-1-max-clk">4:1574400</value></mitigation>
-        <mitigation level="5"><value resource="cluster-1-max-clk">4:1420800</value></mitigation>
-        <mitigation level="6"><value resource="cluster-1-max-clk">4:1056000</value></mitigation>
-        <mitigation level="7"><value resource="cluster-1-max-clk">4:672000</value></mitigation>
-        <mitigation level="8"><value resource="cluster-1-max-clk">4:300000</value></mitigation>
+        <mitigation level="1"><value resource="cluster-1-max-clk">4:1728000</value></mitigation>
+        <mitigation level="2"><value resource="cluster-1-max-clk">4:1728000</value></mitigation>
+        <mitigation level="3"><value resource="cluster-1-max-clk">4:1536000</value></mitigation>
+        <mitigation level="4"><value resource="cluster-1-max-clk">4:1382400</value></mitigation>
+        <mitigation level="5"><value resource="cluster-1-max-clk">4:1382400</value></mitigation>
+        <mitigation level="6"><value resource="cluster-1-max-clk">4:1094400</value></mitigation>
+        <mitigation level="7"><value resource="cluster-1-max-clk">4:883200</value></mitigation>
+        <mitigation level="8"><value resource="cluster-1-max-clk">4:614400</value></mitigation>
     </control>
 
     <control name="soc-cpu-hotplug">
@@ -116,8 +116,8 @@
 
     <!-- adreno clocks -->
     <control name="adreno-clk">
-        <mitigation level="off"><value resource="adreno-max-clk">710000000</value></mitigation>
-        <mitigation level="1"><value resource="adreno-max-clk">257000000</value></mitigation>
+        <mitigation level="off"><value resource="adreno-max-clk">700000000</value></mitigation>
+        <mitigation level="1"><value resource="adreno-max-clk">240000000</value></mitigation>
     </control>
 
     <!-- charging levels -->
