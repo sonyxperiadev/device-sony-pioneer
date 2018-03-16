@@ -230,6 +230,22 @@
         </threshold>
     </configuration>
 
+    <!-- battery swelling protection - Values in centigrade -->
+    <configuration sensor="xo_therm">
+        <threshold>
+            <mitigation name="charging" level="off" />
+        </threshold>
+        <threshold trigger="50" clear="48">
+            <mitigation name="charging" level="1" />
+        </threshold>
+        <threshold trigger="53" clear="51">
+            <mitigation name="charging" level="3" />
+        </threshold>
+        <threshold trigger="56" clear="54">
+            <mitigation name="charging" level="6" />
+        </threshold>
+    </configuration>
+
     <!-- battery protection - Values in milli-centigrade -->
     <configuration sensor="bms">
         <threshold>
