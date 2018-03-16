@@ -3,7 +3,7 @@
 
         <!-- thermal zones -->
         <resource name="battery" type="tz">/sys/class/thermal/thermal_zone0</resource>
-        <resource name="ufs_therm" type="tz">/sys/class/thermal/thermal_zone1</resource>
+        <resource name="emmc_therm" type="tz">/sys/class/thermal/thermal_zone1</resource>
         <resource name="pa_therm0" type="tz">/sys/class/thermal/thermal_zone2</resource>
         <resource name="pa_therm2" type="tz">/sys/class/thermal/thermal_zone3</resource>
         <resource name="flash_therm" type="tz">/sys/class/thermal/thermal_zone4</resource>
@@ -166,7 +166,7 @@
     </configuration>
 
     <!-- throttling - Values in deci-centigrade -->
-    <configuration sensor="ufs_therm">
+    <configuration sensor="emmc_therm">
         <threshold>
             <mitigation name="cluster-0-clk" level="off" />
             <mitigation name="cluster-1-clk" level="off" />
@@ -245,7 +245,7 @@
         </threshold>
     </configuration>
 
-    <configuration sensor="ufs_therm">
+    <configuration sensor="emmc_therm">
         <threshold>
             <mitigation name="shutdown" level="off" />
         </threshold>
