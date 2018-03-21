@@ -588,7 +588,7 @@
     </path>
 
     <path name="audio-ull-playback">
-        <ctl name="INT4_MI2S_RX Audio Mixer MultiMedia8" value="1" />
+        <ctl name="INT4_MI2S_RX Audio Mixer MultiMedia3" value="1" />
         <ctl name="INT4_MI2S_RX Format" value="S24_LE" />
     </path>
 
@@ -597,7 +597,7 @@
     </path>
 
     <path name="audio-ull-playback headphones">
-        <ctl name="INT0_MI2S_RX Audio Mixer MultiMedia8" value="1" />
+        <ctl name="INT0_MI2S_RX Audio Mixer MultiMedia3" value="1" />
     </path>
 
     <path name="audio-ull-playback speaker-and-headphones">
@@ -606,15 +606,15 @@
     </path>
 
     <path name="audio-ull-playback hdmi">
-        <ctl name="HDMI Mixer MultiMedia8" value="1" />
+        <ctl name="HDMI Mixer MultiMedia3" value="1" />
     </path>
 
     <path name="audio-ull-playback display-port">
-        <ctl name="DISPLAY_PORT Mixer MultiMedia8" value="1" />
+        <ctl name="DISPLAY_PORT Mixer MultiMedia3" value="1" />
     </path>
 
     <path name="audio-ull-playback bt-sco">
-        <ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia8" value="1" />
+        <ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia3" value="1" />
     </path>
 
     <path name="audio-ull-playback bt-sco-wb">
@@ -633,15 +633,15 @@
     </path>
 
     <path name="audio-ull-playback afe-proxy">
-        <ctl name="AFE_PCM_RX Audio Mixer MultiMedia8" value="1" />
+        <ctl name="AFE_PCM_RX Audio Mixer MultiMedia3" value="1" />
     </path>
 
     <path name="audio-ull-playback usb-headphones">
-        <ctl name="USB_AUDIO_RX Audio Mixer MultiMedia8" value="1" />
+        <ctl name="USB_AUDIO_RX Audio Mixer MultiMedia3" value="1" />
     </path>
 
     <path name="audio-ull-playback usb-headset">
-        <ctl name="USB_AUDIO_RX Audio Mixer MultiMedia8" value="1" />
+        <ctl name="USB_AUDIO_RX Audio Mixer MultiMedia3" value="1" />
     </path>
 
     <path name="audio-ull-playback speaker-and-bt-sco">
@@ -1399,11 +1399,11 @@
     </path>
 
     <path name="low-latency-record">
-      <ctl name="MultiMedia8 Mixer INT3_MI2S_TX" value="1" />
+      <ctl name="MultiMedia5 Mixer INT3_MI2S_TX" value="1" />
     </path>
 
     <path name="low-latency-record bt-sco">
-      <ctl name="MultiMedia8 Mixer SLIM_7_TX" value="1" />
+      <ctl name="MultiMedia5 Mixer SLIM_7_TX" value="1" />
     </path>
 
     <path name="low-latency-record bt-sco-wb">
@@ -1412,11 +1412,11 @@
     </path>
 
     <path name="low-latency-record usb-headset-mic">
-        <ctl name="MultiMedia8 Mixer USB_AUDIO_TX" value="1" />
+        <ctl name="MultiMedia5 Mixer USB_AUDIO_TX" value="1" />
     </path>
 
     <path name="low-latency-record capture-fm">
-      <ctl name="MultiMedia8 Mixer SLIM_8_TX" value="1" />
+      <ctl name="MultiMedia5 Mixer SLIM_8_TX" value="1" />
     </path>
 
     <path name="fm-virtual-record capture-fm">
