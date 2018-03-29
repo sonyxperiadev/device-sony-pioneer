@@ -67,10 +67,6 @@ PRODUCT_PACKAGES += \
     init.recovery.pioneer \
     init.pioneer
 
-# Lights
-PRODUCT_PACKAGES += \
-    lights.pioneer
-
 # Simple PowerHAL
 PRODUCT_PACKAGES += \
     power.pioneer
