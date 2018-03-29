@@ -71,11 +71,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     power.pioneer
 
-# Fingerprint HAL
-PRODUCT_PACKAGES += \
-    fingerprintd \
-    fingerprint.pioneer
-
 # NFC config
 PRODUCT_PACKAGES += \
     nfc_nci.pioneer
