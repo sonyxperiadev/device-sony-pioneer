@@ -86,7 +86,7 @@
                 </mixPort>
                 <mixPort name="voice_tx" role="source">
                     <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
-                             samplingRates="8000,16000,48000" channelMasks="AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_MONO"/>
+                             samplingRates="8000,16000,48000" channelMasks="AUDIO_CHANNEL_OUT_MONO"/>
                 </mixPort>
                 <mixPort name="primary input" role="sink">
                     <profile name="" format="AUDIO_FORMAT_PCM_8_24_BIT"
@@ -100,7 +100,7 @@
                 </mixPort>
                 <mixPort name="voice_rx" role="sink">
                     <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
-                             samplingRates="8000,16000,48000" channelMasks="AUDIO_CHANNEL_IN_STEREO,AUDIO_CHANNEL_IN_MONO"/>
+                             samplingRates="8000,16000,48000" channelMasks="AUDIO_CHANNEL_IN_MONO"/>
                 </mixPort>
             </mixPorts>
             <devicePorts>
