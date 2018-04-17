@@ -14,7 +14,7 @@
 
 include device/sony/nile/PlatformConfig.mk
 
-TARGET_BOOTLOADER_BOARD_NAME := H3113
+TARGET_BOOTLOADER_BOARD_NAME := nile
 
 # Platform
 PRODUCT_PLATFORM := nile
