@@ -14,7 +14,14 @@
 
 include device/sony/nile/PlatformConfig.mk
 
-TARGET_BOOTLOADER_BOARD_NAME := nile
+TARGET_BOOTLOADER_BOARD_NAME := unknown
+ifneq (,$(filter %h3113,$(TARGET_PRODUCT)))
+TARGET_BOOTLOADER_BOARD_NAME := H3113
+else ifneq (,$(filter %h4113,$(TARGET_PRODUCT)))
+TARGET_BOOTLOADER_BOARD_NAME := H4113
+else
+$(error Unrecognized value for TARGET_PRODUCT: "$(TARGET_PRODUCT)")
+endif
 
 # Platform
 PRODUCT_PLATFORM := nile
