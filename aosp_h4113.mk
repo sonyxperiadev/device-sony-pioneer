@@ -19,7 +19,7 @@ $(call inherit-product, device/sony/pioneer/aosp_h3113.mk)
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.multisim.config=dsds \
     persist.radio.multisim.config=dsds \
-    ro.telephony.default_network=9,1
+    ro.telephony.default_network=9,0
 
 PRODUCT_NAME := aosp_h4113
 PRODUCT_DEVICE := pioneer
