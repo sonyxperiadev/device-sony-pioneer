@@ -13,10 +13,7 @@
 # limitations under the License.
 
 # DualSim
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.multisim.config=dsds \
-    persist.radio.multisim.config=dsds \
-    ro.telephony.default_network=9,0
+BOARD_MULTI_SIM := true
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/sony/pioneer/aosp_h3113.mk)
