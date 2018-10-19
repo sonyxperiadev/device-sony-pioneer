@@ -291,22 +291,14 @@
     <!-- Codec controls -->
     <!-- WSA controls -->
     <ctl name="SpkrLeft COMP Switch" value="0" />
-    <ctl name="SpkrRight COMP Switch" value="0" />
     <ctl name="SpkrLeft BOOST Switch" value="0" />
-    <ctl name="SpkrRight BOOST Switch" value="0" />
     <ctl name="SpkrLeft VISENSE Switch" value="0" />
-    <ctl name="SpkrRight VISENSE Switch" value="0" />
     <ctl name="SpkrLeft SWR DAC_Port Switch" value="0" />
-    <ctl name="SpkrRight SWR DAC_Port Switch" value="0" />
     <ctl name="SpkrLeft WSA PA Gain" value="G_0_DB" />
-    <ctl name="SpkrRight WSA PA Gain" value="G_0_DB" />
     <ctl name="SpkrLeft WSA PA Mute" value="1" />
-    <ctl name="SpkrRight WSA PA Mute" value="1" />
     <ctl name="EAR SPKR PA Gain" value="G_DEFAULT" />
 
     <!-- Volume controls -->
-    <ctl name="HPHL Volume" value="9" />
-    <ctl name="HPHR Volume" value="9" />
     <ctl name="EAR PA Gain" value="POS_1P5_DB" />
     <ctl name="EAR PA Boost" value="ENABLE" />
 
@@ -397,10 +389,6 @@
     <!-- Codec controls end -->
 
     <!-- These are audio route (FE to BE) specific mixer settings -->
-    <path name="gsm-mode">
-        <ctl name="GSM mode Enable" value="ON" />
-    </path>
-
     <path name="echo-reference speaker-vbat-mono">
     </path>
 
@@ -1828,17 +1816,6 @@
         <ctl name="SpkrLeft WSA PA Mute" value="0" />
     </path>
 
-    <path name="speaker-mono-2">
-        <ctl name="INT4_MI2S_RX Channels" value="One" />
-        <ctl name="RX5 MIX1 INP1" value="RX2" />
-        <ctl name="COMP2 Switch" value="1" />
-        <ctl name="SpkrRight COMP Switch" value="1" />
-        <ctl name="SpkrRight BOOST Switch" value="1" />
-        <ctl name="SpkrRight VISENSE Switch" value="1" />
-        <ctl name="SpkrRight SWR DAC_Port Switch" value="1" />
-        <ctl name="SpkrRight WSA PA Mute" value="0" />
-    </path>
-
     <path name="speaker">
         <path name="speaker-mono" />
     </path>
@@ -1853,10 +1830,6 @@
 
    <path name="speaker-vbat-mono">
        <path name="speaker-mono" />
-   </path>
-
-   <path name="speaker-vbat-mono-2">
-       <path name="speaker-mono-2" />
    </path>
 
    <path name="speaker-vbat">
@@ -1905,14 +1878,6 @@
         <ctl name="INT4_MI2S_RX_VI_FB_MONO_CH_MUX" value="INT5_MI2S_TX" />
     </path>
 
-    <path name="voice-speaker-2-protected">
-        <ctl name="AIF1_VI_SDW Mixer SPKR_VI_2" value="1" />
-        <path name="speaker-mono-2" />
-        <ctl name="VI_FEED_TX Channels" value="One" />
-        <ctl name="INT4_MI2S_RX_VI_FB_MONO_CH_MUX" value="INT5_MI2S_TX" />
-        <ctl name="INT5 MI2S VI MONO" value="Right" />
-    </path>
-
     <path name="vi-feedback">
     </path>
 
@@ -1928,10 +1893,6 @@
 
     <path name="voice-speaker-protected-vbat">
         <path name="voice-speaker-protected" />
-    </path>
-
-    <path name="voice-speaker-2-protected-vbat">
-        <path name="voice-speaker-2-protected" />
     </path>
 
     <path name="handset">
@@ -2013,10 +1974,6 @@
         <path name="speaker-mono" />
     </path>
 
-    <path name="voice-speaker-2">
-        <path name="speaker-mono-2" />
-    </path>
-
     <path name="voice-speaker-fluid">
         <path name="speaker-fluid" />
     </path>
@@ -2027,10 +1984,6 @@
 
     <path name="voice-speaker-vbat">
         <path name="speaker-vbat-mono" />
-    </path>
-
-    <path name="voice-speaker-2-vbat">
-        <path name="speaker-vbat-mono-2" />
     </path>
 
     <path name="voice-headphones">
