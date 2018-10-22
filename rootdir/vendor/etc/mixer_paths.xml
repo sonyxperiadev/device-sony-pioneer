@@ -431,6 +431,10 @@
         <ctl name="INT0_MI2S_RX Format" value="S24_LE" />
     </path>
 
+    <path name="deep-buffer-playback speaker">
+        <path name="deep-buffer-playback" />
+    </path>
+
     <path name="deep-buffer-playback speaker-protected">
         <path name="deep-buffer-playback" />
     </path>
@@ -501,6 +505,10 @@
     <path name="low-latency-playback">
         <ctl name="INT4_MI2S_RX Audio Mixer MultiMedia5" value="1" />
         <ctl name="INT4_MI2S_RX Format" value="S24_LE" />
+    </path>
+
+    <path name="low-latency-playback speaker">
+        <path name="low-latency-playback" />
     </path>
 
     <path name="low-latency-playback voice-speaker">
@@ -592,6 +600,10 @@
         <ctl name="INT4_MI2S_RX Format" value="S24_LE" />
     </path>
 
+    <path name="audio-ull-playback speaker">
+        <path name="audio-ull-playback" />
+    </path>
+
     <path name="audio-ull-playback speaker-protected">
         <path name="audio-ull-playback" />
     </path>
@@ -674,6 +686,10 @@
     <path name="compress-offload-playback">
         <ctl name="INT4_MI2S_RX Audio Mixer MultiMedia4" value="1" />
         <ctl name="INT4_MI2S_RX Format" value="S24_LE" />
+    </path>
+
+    <path name="compress-offload-playback speaker">
+        <path name="compress-offload-playback" />
     </path>
 
     <path name="compress-offload-playback speaker-protected">
