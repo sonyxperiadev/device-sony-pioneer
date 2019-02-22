@@ -68,10 +68,6 @@ PRODUCT_PACKAGES += \
     init.recovery.pioneer \
     init.pioneer
 
-# Simple PowerHAL
-PRODUCT_PACKAGES += \
-    power.pioneer
-
 # Telephony Packages (AOSP)
 PRODUCT_PACKAGES += \
     InCallUI \
