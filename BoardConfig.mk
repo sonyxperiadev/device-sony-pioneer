@@ -27,9 +27,6 @@ endif
 # Platform
 PRODUCT_PLATFORM := nile
 
-# NFC
-NXP_CHIP_FW_TYPE := PN553
-
 BOARD_KERNEL_CMDLINE += androidboot.hardware=pioneer
 
 # Partition information
