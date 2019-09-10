@@ -15,3 +15,9 @@
 PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_h3113.mk \
                      $(LOCAL_DIR)/aosp_h4113.mk
 
+COMMON_LUNCH_CHOICES += \
+    aosp_h3113-eng \
+    aosp_h3113-userdebug \
+    aosp_h4113-eng \
+    aosp_h4113-userdebug
+
